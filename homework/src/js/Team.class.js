@@ -15,7 +15,7 @@ class Team {
 
   addAll(...character) {
     for (let i = 0; i < character.length; i += 1) {
-      this.members.add(i);
+      this.members.add(character[i]);
     }
   }
 
